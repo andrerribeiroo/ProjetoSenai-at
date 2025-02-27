@@ -63,6 +63,13 @@
     font-weight: bold;
     color: #007bff;
   }
+  .cursoPreco{
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+  }
   
  
   .formulario {
