@@ -1,0 +1,58 @@
+{
+  "cursos": [
+    {
+      "id": "1",
+      "nome": "TÉCNICO EM ELETROTÉCNICA",
+      "descricao": "Aprenda os fundamentos do JavaScript, incluindo variáveis, funções e loops.",
+      "preco": 49.90,
+      "categoria": "Programação",
+      "imagemUrl": "http://localhost:3000/eletrica.png",
+      "duracao": "1600"
+    },
+    {
+      "id": "2",
+      "nome": "TÉCNICO EM MANUTENÇÃO AUTOMOTIVA",
+      "descricao": "nome completo sobre React, incluindo hooks, componentes e roteamento.",
+      "preco": 79.90,
+      "categoria": "Desenvolvimento Web",
+      "imagemUrl": "http://localhost:3000/manutencao.jpg",
+      "duracao": "1000"
+    },
+    {
+      "id": "3",
+      "nome": "TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS",
+      "descricao": "Aprenda a criar, gerenciar e otimizar bancos de dados MySQL.",
+      "preco": 59.90,
+      "categoria": "Banco de Dados",
+      "imagemUrl": "http://localhost:3000/desenvolvimento.jpg",
+      "duracao": "800"
+    },
+    {
+      "id": "4",
+      "nome": "TÉCNICO EM MECÂNICA",
+      "descricao": "Conceitos básicos e implementação de algoritmos de Machine Learning.",
+      "preco": 99.90,
+      "categoria": "Mecanica",
+      "imagemUrl": "http://localhost:3000/mecanica.jpg",
+      "duracao": "2200"
+    },
+    {
+      "id": "5",
+      "nome": "TÉCNICO EM SEGURANÇA DO TRABALHO",
+      "descricao": "Aprenda a criar, gerenciar e otimizar bancos de dados MySQL.",
+      "preco": 59.90,
+      "categoria": "Banco de Dados",
+      "imagemUrl": "http://localhost:3000/seguranca.jpg",
+      "duracao": "800"
+    },
+    {
+      "id": "6",
+      "nome": "TÉCNICO EM RECURSOS HUMANOS",
+      "descricao": "Conceitos básicos e implementação de algoritmos de Machine Learning.",
+      "preco": 99.90,
+      "categoria": "Mecanica",
+      "imagemUrl": "http://localhost:3000/recursos.jpg",
+      "duracao": "2200"
+    }
+  ]
+}

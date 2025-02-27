@@ -1,0 +1,33 @@
+.historiaHeader {
+    background-color: #fb5909;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .historiaSection {
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .historiaContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .historiaVideoSection {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .historiaVideo {
+    margin-top: 20px;
+  }
+  
+  .historiaIframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+  }
+  

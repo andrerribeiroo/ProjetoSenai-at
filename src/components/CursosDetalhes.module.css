@@ -1,0 +1,162 @@
+.container {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+
+  .cursoCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+
+  .cursoImagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
+  .cursoNome {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  
+  .cursoDescricao {
+    color: #777;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  
+  .cursoDuracao {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+ 
+  .formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+ 
+  .formTitulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .botaoCadastro {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .botaoCadastro:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+
+  .mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .sucesso {
+    color: green;
+  }
+  
+  .erro {
+    color: red;
+  }
+
+  @media (max-width: 600px) {
+    .titulo {
+      font-size: 20px;
+      padding: 8px;
+    }
+  
+    .cursoCard,
+    .formulario {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .cursoNome {
+      font-size: 20px;
+    }
+  
+    .cursoDescricao {
+      font-size: 14px;
+    }
+  
+    .cursoDuracao {
+      font-size: 14px;
+    }
+  
+    .input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .botaoCadastro {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
