@@ -8,7 +8,7 @@ export default function Contato() {
       <h2>Cadastra seus dados para receber mais informações sobre os cursos.</h2>
       <h1>Entre em contato:</h1>
 
-      <form>
+      <form className={styles.formulario2}>
         <label>Nome:</label>
         <input type="text" placeholder="Nome" name="nome" />
 
