@@ -12,7 +12,6 @@ const CursoDetalhes = (props) => {
     fetch(`${urlCursos}/${id}`)
       .then((res) => res.json())
       .then((data) => setCurso(data))
-      .catch((error) => console.error("Erro ao buscar curso:", error));
   }, [id]);
 
   if (!curso) {
@@ -40,7 +39,7 @@ const CursoDetalhes = (props) => {
       </div>
 
       <div className={styles.formulario}>
-        <h3 className={styles.formTitulo}>Cadastre-se para mais informações</h3>
+        <h3 className={styles.formTitulo}>Cadastrar interesse</h3>
         <form>
           <input type="text" placeholder="Seu nome" className={styles.input} />
           <input

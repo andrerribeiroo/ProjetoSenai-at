@@ -5,6 +5,12 @@
     text-align: center;
     padding: 20px;
   }
+  form{
+    box-shadow: 0px 0px 5px black;
+    padding: 25px;
+    border-radius: 10px;
+
+  }
   
   .contato h2 {
     font-size: 20px;
